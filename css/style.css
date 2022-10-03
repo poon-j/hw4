@@ -76,7 +76,7 @@ footer{
 
 
 .text-block{
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 1);
   border: 10px solid black;
   padding: 30px;
 }
@@ -147,7 +147,7 @@ first div in the grid  and place it in the grid. */
 
 .container > :first-child {
   grid-column: 1 / column-end;
-  background-image: url("../images/header.jpg");
+  background: url("../images/header.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
